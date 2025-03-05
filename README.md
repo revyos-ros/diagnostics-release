@@ -1,3 +1,31 @@
+## diagnostics (jazzy) - 4.2.2-1
+
+The packages in the `diagnostics` repository were released into the `jazzy` distro by running `/root/venv/bin/bloom-release -r jazzy diagnostics --override-release-repository-push-url git@github.com:revyos-ros/diagnostics-release.git` on `Wed, 05 Mar 2025 06:26:47 -0000`
+
+These packages were released:
+- `diagnostic_aggregator`
+- `diagnostic_common_diagnostics`
+- `diagnostic_updater`
+- `diagnostics`
+- `self_test`
+
+Version of package(s) in repository `diagnostics`:
+
+- upstream repository: https://github.com/ros/diagnostics.git
+- release repository: https://github.com/revyos-ros/diagnostics-release.git
+- rosdistro version: `4.2.2-1`
+- old version: `4.2.1-1`
+- new version: `4.2.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## diagnostics (humble) - 4.0.2-1
 
 The packages in the `diagnostics` repository were released into the `humble` distro by running `/home/z572/gits/revyos-ros/venv2/bin/bloom-release -r humble diagnostics --override-release-repository-push-url git@github.com:revyos-ros/diagnostics-release.git` on `Mon, 17 Feb 2025 01:22:41 -0000`
