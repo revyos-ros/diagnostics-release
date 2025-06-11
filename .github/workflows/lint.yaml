@@ -41,6 +41,7 @@ jobs:
           package-name: |
             diagnostic_aggregator
             diagnostic_common_diagnostics
+            diagnostic_remote_logging
             diagnostic_updater
             self_test
 
@@ -49,4 +50,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: boschresearch/ros_license_toolkit@2.0.1
+      - uses: boschresearch/ros_license_toolkit@2.0.2
