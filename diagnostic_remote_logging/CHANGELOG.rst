@@ -1,6 +1,6 @@
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Changelog for package diagnostics
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package diagnostic_remote_logging
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 4.0.6 (2025-05-26)
 ------------------
@@ -10,10 +10,25 @@ Changelog for package diagnostics
 4.0.4 (2025-05-12)
 ------------------
 
+4.0.3 (2025-04-03)
+------------------
+* cleanup (#450 <https://github.com/ros/diagnostics/issues/450>)
+* Grafana Integration (#425 <https://github.com/ros/diagnostics/issues/425>)
+  * First working version of remote_logging
+  * Added more error handling, and skipping values when new line is present in stat
+  * Changed default telegraf url to reflect the change to influxdb_v2_listener
+  * Made node composable and changed name to influx to better reflect use cases
+  * Added README
+  ---------
+  Co-authored-by: Daan Wijffels <mailto:dwijffels@lely.com>
+  Co-authored-by: Thiever Base <mailto:thiever@lely.com>
+  Co-authored-by: Christian Henkel <mailto:6976069+ct2034@users.noreply.github.com>
+* Contributors: Christian Henkel, Daan Wijffels
+
 4.0.2 (2025-02-10)
 ------------------
 
-3.2.1 (2024-06-27)
+4.0.0 (2024-06-27)
 ------------------
 
 3.2.0 (2024-03-22)
@@ -24,24 +39,39 @@ Changelog for package diagnostics
 
 3.1.1 (2023-03-16)
 ------------------
-* Maintainer update
-* Contributors: Austin, Ralph Lange
 
-3.1.0 (2023-01-26)
+3.1.0 (2023-01-30)
 ------------------
-* Adding READMEs to the repo (`#270 <https://github.com/ros/diagnostics/issues/270>`_)
-* License fixes (`#263 <https://github.com/ros/diagnostics/issues/263>`_)
-* Fix/cleanup ros1 (`#257 <https://github.com/ros/diagnostics/issues/257>`_)
-* Contributors: Austin, Christian Henkel, Ralph Lange
+
+3.0.0 (2022-06-10)
+------------------
+
+2.1.3 (2021-08-03)
+------------------
+
+2.1.2 (2021-03-03)
+------------------
+
+2.1.1 (2021-01-28)
+------------------
+
+2.1.0 (2021-01-12)
+------------------
+
+2.0.2 (2020-06-03)
+------------------
+
+2.0.0 (2019-09-03)
+------------------
 
 1.9.3 (2018-05-02)
 ------------------
 
-1.9.2 (2017-07-15)
-------------------
+1.9.2 (2017-07-15 20:34)
+------------------------
 
-1.9.1 (2017-07-15)
-------------------
+1.9.1 (2017-07-15 16:38)
+------------------------
 
 1.9.0 (2017-04-25)
 ------------------
@@ -64,8 +94,8 @@ Changelog for package diagnostics
 1.8.5 (2014-07-29)
 ------------------
 
-1.8.4 (2014-07-24 20:51)
-------------------------
+1.8.4 (2014-07-24)
+------------------
 
 1.8.3 (2014-04-23)
 ------------------
@@ -75,25 +105,12 @@ Changelog for package diagnostics
 
 1.8.1 (2014-04-07)
 ------------------
-* Add myself as maintainer
-* Contributors: Austin Hendrix
 
 1.8.0 (2013-04-03)
 ------------------
-* Updating metapackages to reflect REP-0127
-* Contributors: William Woodall
-
-1.7.11 (2014-07-24 20:24)
--------------------------
-* Restore diagnostics meta package description
-  For the wiki etc.
-* Updating metapackages to reflect REP-0127
-* Contributors: Felix Kolbe, William Woodall
 
 1.7.10 (2013-02-22)
 -------------------
-* Changed package.xml version number before releasing
-* Contributors: Brice Rebsamen
 
 1.7.9 (2012-12-14)
 ------------------
@@ -121,9 +138,6 @@ Changelog for package diagnostics
 
 1.7.1 (2012-10-30 15:30)
 ------------------------
-* fix a few things after the first release
-* add the meta-package
-* Contributors: Vincent Rabaud
 
 1.7.0 (2012-10-29)
 ------------------
